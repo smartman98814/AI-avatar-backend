@@ -151,5 +151,3 @@ async def chat_with_agent_streaming(agent_id: int, request: ChatRequest):
             "X-Accel-Buffering": "no"
         }
     )
-
-

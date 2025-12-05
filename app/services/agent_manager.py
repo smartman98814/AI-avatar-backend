@@ -276,7 +276,7 @@ class AgentManager:
                 role=agent.role,
                 vector_store_id=agent.vector_store_id,
                 assistant_id=agent.assistant_id,
-                is_ready=bool(agent.assistant_id and agent.vector_store_id)
+                is_ready=bool(agent.assistant_id)  # Only need assistant_id for conversational mode
             )
             for agent in self.agents.values()
         ]

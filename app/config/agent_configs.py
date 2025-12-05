@@ -133,7 +133,7 @@ AGENT_CONFIGURATIONS: Dict[int, AgentConfigDict] = {
             "Convinced by: Math ($840/yr vs $7,800 = $6,960 savings), sustainability data (80x over 5yr, lower carbon), labor cost reduction, no contracts (low risk), measurable perception improvements\n"
             "Want: Annual comparison, 5-yr TCO, environmental data, satisfaction metrics"
         ),
-        "model": "gpt-3.5-turbo"
+        "model": "gpt-4o-mini"
     },
     
     9: {
